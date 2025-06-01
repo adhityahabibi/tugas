@@ -1,0 +1,79 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*  {
+    padding: 0;
+    margin: 0;
+}
+
+/* body */
+body {
+    overflow: hidden;
+    background-color: #89897F;
+}
+
+/* navbar */
+.navbar {
+    background: white fixed;
+    height: 50px;
+}
+
+.navbar-nav ul{
+    list-style: none;
+    display: flex;
+    gap : 2rem;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    left: 500px;
+}
+
+.navbar-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    transition: 500ms;
+}
+
+.navbar-nav ul li a:hover{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #D8CBB6;
+    color: #D8CBB6;
+}
+
+/* content */
+.content-t{
+    background-color: #A9B795;
+    height: 500px;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 125px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px;
+}
+.content h2 {
+    position: relative;
+    top: 100px;
+    left: 680px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.content p {
+    padding: 130px 50px 50px 500px;
+    text-align: justify;
+}
+
+.content img {
+    position: relative;
+    top:-350px;
+    left: 100px;
+    border-radius: 5px;
+}
